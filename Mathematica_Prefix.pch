@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'Mathematica' target in the 'Mathematica' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+
+#import "TwitterHelper.h"
+#import "Debugging.h"
+
+/*
+ Things to get Done:
+ 1.- Select an account
+ 2.- Retrieve the information from the server
+ 3.- Check if any of the first *Número de twitts de colchon despues de el twitt bandera* have the username Wolfram
+ 4.- If 3 IS TRUE
+ 4.1.- Get the post from that user
+ 4.2.- Append it to the retweetString variable
+ 5.- If 3 IS FALSE
+ 5.1.- Go back to 1
+ 6.- Break & twitt a mention to me @youhavefuckingwon.
+ */
